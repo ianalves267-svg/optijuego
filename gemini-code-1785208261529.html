@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optijuegos</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            background: #2b2b2b;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            max-width: 400px;
+            width: 100%;
+        }
+        h1 {
+            color: #ffcc00;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+        p {
+            color: #b0b0b0;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #ff5722;
+            color: white;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: background 0.3s ease, transform 0.1s ease;
+            box-shadow: 0 4px 10px rgba(255, 87, 34, 0.4);
+        }
+        .btn:hover {
+            background-color: #e64a19;
+        }
+        .btn:active {
+            transform: scale(0.98);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Optijuegos</h1>
+        <p>Tu plataforma de juegos favorita</p>
+        <a href="https://www.mediafire.com/file/8xc6f018jvivp52/optijuegos.bat/file" target="_blank" class="btn">minecraft trucho xd</a>
+    </div>
+
+    <script>
+        // Script para abrir la página en una pestaña about:blank automáticamente si se desea, 
+        // o puedes guardar este código y abrirlo.
+        function abrirAboutBlank() {
+            let ventana = window.open('about:blank', '_blank');
+            if (ventana) {
+                ventana.document.write(document.documentElement.outerHTML);
+                ventana.document.close();
+            }
+        }
+        
+        // Descomenta la siguiente línea si quieres que se abra en about:blank al cargar:
+        // window.onload = abrirAboutBlank;
+    </script>
+
+</body>
+</html>
